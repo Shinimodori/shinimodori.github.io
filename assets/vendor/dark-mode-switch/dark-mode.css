@@ -39,3 +39,7 @@
 [data-theme="dark"] hr {
   border-top: 1px solid rgba(255,255,255,.1);
 }
+
+[data-theme="dark"] .zp-comment-text > p, [data-theme="dark"] span.zp-comment-handle {
+  color: #eee;
+}
