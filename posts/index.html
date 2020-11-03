@@ -1,0 +1,42 @@
+---
+layout: page
+title: Chapters
+background: '/img/bg-post.jpg'
+---
+
+<article class="post-preview">
+  <a href="https://solitudetranslation.wordpress.com/shi-ni-modori-subete-wo-sukuu-tame-ni-saikyou-he-to-itaru/">
+    <h2 class="post-title">Chapter 1-18</h2>
+  </a>
+  <p class="post-meta">Translated by Solitude
+    &middot; April 20, 2018 &middot; 20 mins read
+  </p>
+</article>
+
+{% assign sorted_posts = site.posts | sort: 'date' %}
+{% for post in sorted_posts %}
+
+<hr>
+
+<article class="post-preview">
+  <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+    <h2 class="post-title">{{ post.title }}</h2>
+    {% if post.subtitle %}
+    <h3 class="post-subtitle">{{ post.subtitle }}</h3>
+    {% else %}
+    <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
+    {% endif %}
+  </a>
+  <p class="post-meta">Translated by
+    {% if post.author %}
+    {{ post.author }}
+    {% else %}
+    {{ site.author }}
+    {% endif %}
+    &middot; {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}
+  </p>
+</article>
+
+{% endfor %}
+
+

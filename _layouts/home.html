@@ -1,0 +1,168 @@
+---
+layout: default
+---
+
+<!-- Page Header -->
+{% if page.background %}
+<header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
+  {% else %}
+  <header class="masthead">
+    {% endif %}
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>{{ site.title }}</h1>
+            {% if site.description %}
+            <span class="subheading">{{ site.description }}</span>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    
+    <!-- <div class="row justify-content-md-center"> -->
+      <!-- <div class="col-lg-8 col-md-10 mx-auto"> -->
+    <div class="row justify-content-md-center">
+      <div class="col-lg">
+        <h1>Web Novel Translations</h1>
+      </div>
+      <br><br><br>
+    </div>
+
+        {{ content }}
+
+        {% for category in site.categories %}
+        <div class="row justify-content-md-center">
+          <div class="col-sm-12 col-lg-3">
+            <img src="img/{{ category[0] | replace: ' ', '_'}}_Cover.jpg" class="img-fluid" alt="{{ category[0] }} Cover">
+            <br><br>
+          </div>
+          <div class="col-sm-12 col-lg-9">
+            <!-- <h2>{{ category[0] }}</h2> -->
+          {% for tag in site.tags %}
+            {% assign actname = '' %}
+            {% if category[0] == 'Volume 1' %}
+              {% case tag[0] %}
+                {% when 'Act 1' %}
+                  {% assign actname = ': The Beginnings After the Rebirth' %}
+                {% when 'Act 2' %}
+                  {% assign actname = ': The Fight After the Rebirth' %}
+                {% when 'Act 3' %}
+                  {% assign actname = ': The Departure After the Rebirth' %}
+              {% endcase %}
+            {% elsif category[0] == 'Volume 2' %}
+              {% case tag[0] %}
+                {% when 'Act 1' %}
+                  {% assign actname = ': Knights of the Kingdom of Begonia' %}
+                {% when 'Act 2' %}
+                  {% assign actname = ': Best Friend' %}
+                {% when 'Act 3' %}
+                  {% assign actname = ': Secret Mission' %}
+              {% endcase %}
+            {% endif %}
+            <h4>{{ tag[0] }}{{ actname }}</h4>
+            <ul>
+              {% assign sorted_posts = tag[1] | sort: 'date' %}
+              {% for post in sorted_posts %}
+              {% if post.category == category[0] %}
+                <li><a href="{{ post.url }}"><b>{{ post.title | replace: 'Chapter ', 'Ch.'}}</b> {{ post.subtitle }}</a></li>
+              {% endif %}
+              {% endfor %}
+            </ul>
+          {% endfor %}
+          </div>
+        </div>
+
+        <br><br>
+        {% endfor %}    
+
+        <hr>
+
+    <div class="row justify-content-md-center">
+      <div class="col">
+        <h1>Series Info</h1>
+
+        <dl class="row">
+          <dt class="col-sm-3">Novel Author</dt>
+          <dd class="col-sm-9">
+            <dl class="row">
+              <dd class="col-sm-4"><a href="https://twitter.com/nissyhiro222/" target="_blank">ｓｈｉｒｙｕ</a></dd>
+              <dt class="col-sm-4">Character Designs / Illustration</dt>
+              <dd class="col-sm-4"><a href="https://twitter.com/_17meisai23" target="_blank">手島 ｎａｒｉ。</a></dd>
+            </dl>
+          </dd>
+
+          <!-- <dt class="col-sm-3">Illustrator</dt>
+          <dd class="col-sm-9"><a href="https://twitter.com/_17meisai23" target="_blank">手島 ｎａｒｉ。</a></dd> -->
+
+          <dt class="col-sm-3 text-truncate">Manga Adaptation by</dt>
+          <dd class="col-sm-9"><a href="https://twitter.com/youkann00" target="_blank">太田羊羹 Ota Yokan</a></dd>
+
+          <dt class="col-sm-3 text-truncate">Summary</dt>
+          <dd class="col-sm-9">
+            <p style="margin: 0">Eric has had a hard life. At the age of 16, his village was overrun by monsters, who killed his family and friends. He soon became a soldier, but failed to save the life of the woman he loved. In the end, he died on the battlefield, surrounded by the bodies of those who he couldn’t protect.</p>
+
+            <p>When Eric wakes up, he finds himself in a baby’s body. Realizing he has been reincarnated, he quickly wonders what is going on before he gets another shocker: the man and woman who are raising him are in fact his previous life’s parents!</p>
+
+            <p>That’s right - Eric was reincarnated, but as himself. No alternate worlds, no skill trees, just his memories sent back to the moment he popped out of his mother. Armed with the knowledge of his past self, Eric vows to save everyone now that the universe has pushed the reset button for him.</p></dd>
+
+          <dt class="col-sm-3">Title</dt>
+          <dd class="col-sm-9">
+            <dl class="row">
+              <dt class="col-sm-4">死に戻り、全てを救うために最強へと至る</dt>
+              <dd class="col-sm-8">After Being Reborn, I Became the Strongest to Save Everyone</dd>
+            </dl>
+          </dd>
+        </dl>
+      </div>
+    </div>
+
+    <div class="row justify-content-md-center">
+      <div class="col col-lg-3">
+        <img src="img/Volume_1_Cover.jpg" class="img-fluid" alt="Volume 1 Cover">
+      </div>
+      <div class="col col-lg-3">
+        <img src="img/Volume_2_Cover.jpg" class="img-fluid" alt="Volume 2 Cover">
+      </div>
+      <div class="col col-lg-3">
+        <img src="img/Volume_3_Cover.jpg" class="img-fluid" alt="Volume 3 Cover">
+      </div>
+    </div>
+    <br>
+    <div class="row justify-content-md-center">
+      <div class="col">
+        <h3 class="text-center"><a href="https://www.amazon.co.jp/-/en/dp/B07ZTV8XFW" target="_blank">Show Support by Getting the Books!</a></h3>
+      </div>
+    </div>
+    <br>
+    <div class="row justify-content-md-center">
+      <div class="col col-lg-3">
+        <img src="img/Manga_Volume_1_Cover.jpg" class="img-fluid" alt="Manga Volume 1 Cover">
+      </div>
+      <div class="col col-lg-3">
+        <img src="img/Manga_Volume_2_Cover.jpg" class="img-fluid" alt="Manga Volume 2 Cover">
+      </div>
+    </div>
+    <br>
+    <div class="row justify-content-md-center">
+      <div class="col">
+        <h3 class="text-center"><a href="https://urasunday.com/title/874" target="_blank">Manga Adaptation by Ota Yokan!</a> <a href="https://www.amazon.co.jp/-/en/gp/product/B08CDTPTJL" target="_blank">(Kindle)</a></h3>
+      </div>
+    </div>
+    <br>
+    <div class="row justify-content-md-center">
+      <div class="col-md-4">
+        <div class="alert alert-dark" role="alert">
+          <div class="custom-control custom-switch">
+            <input type="checkbox" class="custom-control-input" id="darkSwitch" />
+            <label class="custom-control-label" for="darkSwitch">Click this for Dark Mode</label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

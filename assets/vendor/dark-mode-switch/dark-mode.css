@@ -1,0 +1,41 @@
+.custom-switch {
+	padding-top: 6px;
+}
+
+[data-theme="dark"] {
+  background-color: #111 !important;
+  color: #eee;
+}
+
+[data-theme="dark"] #mainNav {
+	background-color: black;
+}
+
+[data-theme="dark"] #mainNav.is-fixed {
+	border-bottom: 1px solid black;
+	background-color: rgba(0, 0, 0, 0.9);
+}
+
+[data-theme="dark"] a {
+  color: #bbb !important;
+}
+
+[data-theme="dark"] a:hover, a:focus {
+  color: #0085A1 !important;
+}
+
+[data-theme="dark"] .bg-light {
+  background-color: #333 !important;
+}
+
+[data-theme="dark"] .bg-white {
+  background-color: #000 !important;
+}
+
+[data-theme="dark"] .bg-black {
+  background-color: #eee !important;
+}
+
+[data-theme="dark"] hr {
+  border-top: 1px solid rgba(255,255,255,.1);
+}
