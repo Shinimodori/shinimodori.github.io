@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Chapter 13"
+date:   2018-05-03 00:00:00 +0900
+subtitle: "Backup"
+author: Solitude
+background: '/img/posts/vol-1.jpg'
+category: Volume 1
+tag: Act 2
+---
+
+>> [Chapter 13 by Solitude Translation](https://solitudetranslation.wordpress.com/2020/05/13/shi-ni-modori-subete-wo-sukuu-tame-ni-saikyou-he-to-itaru-chapter-13-backup/)
+
+----
+
+- [Manga: Chapter 8 and 9][manga-link]
+- [Web Novel][novel-link]
+
+[manga-link]: https://mangadex.org/title/41744/shi-ni-modori-subete-wo-sukuu-tame-ni-saikyou-he-to-itaru
+[novel-link]: https://ncode.syosetu.com/n0569es/13/

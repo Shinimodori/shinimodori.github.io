@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Chapter 3"
+date:   2018-04-22 18:00:00 +0900
+subtitle: "What Can I Do Now"
+author: Solitude
+background: '/img/posts/vol-1.jpg'
+category: Volume 1
+tag: Act 1
+---
+
+>> [Chapter 3 by Solitude Translation](https://solitudetranslation.wordpress.com/2020/04/29/shi-ni-modori-subete-wo-sukuu-tame-ni-saikyou-he-to-itaru-chapter-3-what-can-i-do-now/)
+
+----
+
+- [Manga: None][manga-link]
+- [Web Novel][novel-link]
+
+[manga-link]: https://mangadex.org/title/41744/shi-ni-modori-subete-wo-sukuu-tame-ni-saikyou-he-to-itaru
+[novel-link]: https://ncode.syosetu.com/n0569es/3/

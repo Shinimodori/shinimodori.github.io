@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Chapter 25"
+date:   2018-05-11 20:00:00 +0900
+subtitle: "Family Meeting"
+author: Lunaticll
+background: '/img/posts/vol-1.jpg'
+category: Volume 1
+tag: Act 3
+---
+
+>> [Chapter 25 by Lunaticll](https://www.wattpad.com/975826553-shi-ni-modori-subete-wo-sukuu-tame-ni-saikyou-he)
+
+----
+
+- [Manga: TBD][manga-link]
+- [Web Novel][novel-link]
+
+[manga-link]: https://mangadex.org/title/41744/shi-ni-modori-subete-wo-sukuu-tame-ni-saikyou-he-to-itaru
+[novel-link]: https://ncode.syosetu.com/n0569es/25/

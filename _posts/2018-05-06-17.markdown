@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Chapter 17"
+date:   2018-05-06 00:00:00 +0900
+subtitle: "Main Culprit"
+author: Solitude
+background: '/img/posts/vol-1.jpg'
+category: Volume 1
+tag: Act 2
+---
+
+>> [Chapter 17 by Solitude Translation](https://solitudetranslation.wordpress.com/2020/05/19/shi-ni-modori-subete-wo-sukuu-tame-ni-saikyou-he-to-itaru-chapter-17-main-culprit/)
+
+----
+
+- [Manga: Chapter 15][manga-link]
+- [Web Novel][novel-link]
+
+[manga-link]: https://mangadex.org/title/41744/shi-ni-modori-subete-wo-sukuu-tame-ni-saikyou-he-to-itaru
+[novel-link]: https://ncode.syosetu.com/n0569es/17/

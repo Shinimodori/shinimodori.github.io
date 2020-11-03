@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Chapter 9"
+date:   2018-04-28 18:00:00 +0900
+subtitle: "Birthday"
+author: Solitude
+background: '/img/posts/vol-1.jpg'
+category: Volume 1
+tag: Act 1
+---
+
+>> [Chapter 9 by Solitude Translation](https://solitudetranslation.wordpress.com/2020/05/07/shi-ni-modori-subete-wo-sukuu-tame-ni-saikyou-he-to-itaru-chapter-9-birthday-2/)
+
+----
+
+- [Manga: Chapter 5 and 6][manga-link]
+- [Web Novel][novel-link]
+
+[manga-link]: https://mangadex.org/title/41744/shi-ni-modori-subete-wo-sukuu-tame-ni-saikyou-he-to-itaru
+[novel-link]: https://ncode.syosetu.com/n0569es/9/

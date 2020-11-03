@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Chapter 4"
+date:   2018-04-23 18:00:00 +0900
+subtitle: "Childhood Friend"
+author: Solitude
+background: '/img/posts/vol-1.jpg'
+category: Volume 1
+tag: Act 1
+---
+
+>> [Chapter 4 by Solitude Translation](https://solitudetranslation.wordpress.com/2020/04/30/shi-ni-modori-subete-wo-sukuu-tame-ni-saikyou-he-to-itaru-chapter-4-childhood-friend/)
+
+----
+
+- [Manga: None][manga-link]
+- [Web Novel][novel-link]
+
+[manga-link]: https://mangadex.org/title/41744/shi-ni-modori-subete-wo-sukuu-tame-ni-saikyou-he-to-itaru
+[novel-link]: https://ncode.syosetu.com/n0569es/4/

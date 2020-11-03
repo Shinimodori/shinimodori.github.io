@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Chapter 29"
+date:   2018-05-16 14:00:00 +0900
+subtitle: "Exam"
+author: Lunaticll
+background: '/img/posts/vol-1.jpg'
+category: Volume 1
+tag: Act 3
+---
+
+>> [Chapter 29 by Lunaticll](https://www.wattpad.com/975972876-shi-ni-modori-subete-wo-sukuu-tame-ni-saikyou-he)
+
+----
+
+- [Manga: TBD][manga-link]
+- [Web Novel][novel-link]
+
+[manga-link]: https://mangadex.org/title/41744/shi-ni-modori-subete-wo-sukuu-tame-ni-saikyou-he-to-itaru
+[novel-link]: https://ncode.syosetu.com/n0569es/29/

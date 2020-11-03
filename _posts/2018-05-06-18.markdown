@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Chapter 18"
+date:   2018-05-06 14:00:00 +0900
+subtitle: "Determine Again"
+author: Solitude
+background: '/img/posts/vol-1.jpg'
+category: Volume 1
+tag: Act 2
+---
+
+>> [Chapter 18 by Solitude Translation](https://solitudetranslation.wordpress.com/2020/05/21/shi-ni-modori-subete-wo-sukuu-tame-ni-saikyou-he-to-itaru-chapter-18-determine-again/)
+
+----
+
+- [Manga: Chapter 16][manga-link]
+- [Web Novel][novel-link]
+
+[manga-link]: https://mangadex.org/title/41744/shi-ni-modori-subete-wo-sukuu-tame-ni-saikyou-he-to-itaru
+[novel-link]: https://ncode.syosetu.com/n0569es/18/
