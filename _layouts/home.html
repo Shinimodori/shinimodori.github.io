@@ -48,24 +48,28 @@ layout: default
             {% assign actname = '' %}
             {% if category[0] == 'Volume 1' %}
               {% case tag[0] %}
+                {% when 'Act 0' %}
+                  {% assign actname = 'Prologue' %}
                 {% when 'Act 1' %}
-                  {% assign actname = ': The Beginnings After the Rebirth' %}
+                  {% assign actname = 'Act 1: The Beginnings After the Rebirth' %}
                 {% when 'Act 2' %}
-                  {% assign actname = ': The Fight After the Rebirth' %}
+                  {% assign actname = 'Act 2: The Fight After the Rebirth' %}
                 {% when 'Act 3' %}
-                  {% assign actname = ': The Departure After the Rebirth' %}
+                  {% assign actname = 'Act 3: The Departure After the Rebirth' %}
               {% endcase %}
             {% elsif category[0] == 'Volume 2' %}
               {% case tag[0] %}
+                {% when 'Act 0' %}
+                  {% assign actname = 'Prologue' %}
                 {% when 'Act 1' %}
-                  {% assign actname = ': Knights of the Kingdom of Begonia' %}
+                  {% assign actname = 'Act 1: Knights of the Kingdom of Begonia' %}
                 {% when 'Act 2' %}
-                  {% assign actname = ': Best Friend' %}
+                  {% assign actname = 'Act 2: Best Friend' %}
                 {% when 'Act 3' %}
-                  {% assign actname = ': Secret Mission' %}
+                  {% assign actname = 'Act 3: Secret Mission' %}
               {% endcase %}
             {% endif %}
-            <h4>{{ tag[0] }}{{ actname }}</h4>
+            <h4>{{ actname }}</h4>
             <ul>
               {% assign sorted_posts = tag[1] | sort: 'date' %}
               {% for post in sorted_posts %}
