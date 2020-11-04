@@ -8,6 +8,7 @@ background: '/img/posts/vol-1.jpg'
 category: Volume 1
 tag: Act 3
 ---
+![Jeremias and Tina's Duel from Volume 1](/img/posts/ch-30.jpg)
 
 >> [Chapter 30 by Lunaticll](https://lunaticll.blogspot.com/2020/11/shi-ni-modori-ch-30.html)
 

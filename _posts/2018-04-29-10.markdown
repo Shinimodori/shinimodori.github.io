@@ -2,7 +2,7 @@
 layout: post
 title:  "Chapter 10"
 date:   2018-04-29 18:00:00 +0900
-subtitle: "Tina’s Younger Brother"
+subtitle: "Tina’s Little Brother"
 author: Solitude
 background: '/img/posts/vol-1.jpg'
 category: Volume 1

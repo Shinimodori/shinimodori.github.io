@@ -8,6 +8,7 @@ background: '/img/posts/vol-1.jpg'
 category: Volume 1
 tag: Act 0
 ---
+![Eric and Irene from Volume 1](/img/bg-about.jpg)
 
 >> [Chapter 1 by Solitude Translation](https://solitudetranslation.wordpress.com/2020/04/27/shi-ni-modori-subete-wo-sukuu-tame-ni-saikyou-he-to-itaru/)
 

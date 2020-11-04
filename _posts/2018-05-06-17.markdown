@@ -2,7 +2,7 @@
 layout: post
 title:  "Chapter 17"
 date:   2018-05-06 00:00:00 +0900
-subtitle: "Main Culprit"
+subtitle: "Culprit"
 author: Solitude
 background: '/img/posts/vol-1.jpg'
 category: Volume 1

@@ -8,6 +8,7 @@ background: '/img/posts/vol-1.jpg'
 category: Volume 1
 tag: Act 2
 ---
+![Dian and Eric back-to-back from Volume 1](/img/posts/ch-13.jpg)
 
 >> [Chapter 13 by Solitude Translation](https://solitudetranslation.wordpress.com/2020/05/13/shi-ni-modori-subete-wo-sukuu-tame-ni-saikyou-he-to-itaru-chapter-13-backup/)
 

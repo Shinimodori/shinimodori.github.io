@@ -1,15 +1,15 @@
 ---
 layout: post
-title:  "Chapter 24"
-date:   2018-05-11 12:00:00 +0900
-subtitle: "Perilous Boy"
+title:  "Chapter 32"
+date:   2018-05-19 20:00:00 +0900
+subtitle: "Decision to Join"
 author: Lunaticll
 background: '/img/posts/vol-1.jpg'
 category: Volume 1
 tag: Act 3
 ---
 
->> [Chapter 24 by Lunaticll](https://www.wattpad.com/975823097-shi-ni-modori-subete-wo-sukuu-tame-ni-saikyou-he)
+>> #### Coming Soon
 
 ----
 
@@ -17,4 +17,4 @@ tag: Act 3
 - [Web Novel][novel-link]
 
 [manga-link]: https://mangadex.org/title/41744/shi-ni-modori-subete-wo-sukuu-tame-ni-saikyou-he-to-itaru
-[novel-link]: https://ncode.syosetu.com/n0569es/24/
+[novel-link]: https://ncode.syosetu.com/n0569es/32/

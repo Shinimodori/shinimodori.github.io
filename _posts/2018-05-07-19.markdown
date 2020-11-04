@@ -2,7 +2,7 @@
 layout: post
 title:  "Chapter 19"
 date:   2018-05-07 20:00:00 +0900
-subtitle: "Conclusion"
+subtitle: "Decisive End"
 author: Shinimodori
 background: '/img/posts/vol-1.jpg'
 category: Volume 1
@@ -190,6 +190,7 @@ After I put my strength into the blade, Felix was unable to resist it at all and
 
 I successfully utilized wind magic to speed up several folds and cut him down.
 
+![Eric's Decisive Blade from Volume 1](/img/posts/ch-19.jpg)
 
 After the cut, Felix's upper and lower body separated into half and fell to the ground.
 
