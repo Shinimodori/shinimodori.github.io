@@ -76,7 +76,14 @@ layout: default
               {% assign sorted_posts = tag[1] | sort: 'date' %}
               {% for post in sorted_posts %}
               {% if post.category == category[0] %}
-                <li><a href="{{ post.url }}"><b>{{ post.title | replace: 'Chapter ', 'Ch.'}}</b> {{ post.subtitle }}</a></li>
+                <li>
+
+                  {% if post.category == 'Volume 2' %}
+                  <span class="badge badge-secondary">New</span>
+                  {% endif %}
+
+                  <a href="{{ post.url }}"><b>{{ post.title | replace: 'Chapter ', 'Ch.'}}</b> {{ post.subtitle }}</a>
+                </li>
               {% endif %}
               {% endfor %}
             </ul>
