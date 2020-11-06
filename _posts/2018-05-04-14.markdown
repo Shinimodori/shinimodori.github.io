@@ -7,6 +7,7 @@ author: Solitude
 background: '/img/posts/vol-1.jpg'
 category: Volume 1
 tag: Act 2
+manga: '9,10'
 ---
 
 >> [Chapter 14 by Solitude Translation](https://solitudetranslation.wordpress.com/2020/05/14/shi-ni-modori-subete-wo-sukuu-tame-ni-saikyou-he-to-itaru-chapter-14-father/)

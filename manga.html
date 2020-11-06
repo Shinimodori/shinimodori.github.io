@@ -1,0 +1,127 @@
+---
+layout: page
+title: Chapter Guide
+description: Novel to Manga Chapters
+background: '/img/bg-post.jpg'
+---
+
+<div class="container">
+  <div class="row justify-content-md-center">
+    <div class="col">
+      <h2>Table of Contents</h2>
+      <blockquote>There's some notable differences between the manga and the novel: sequence of events, ommisions of various POVs, and the added dramatic tension, among other things. The manga chapters are indicated at the right.</blockquote>
+      <!-- <hr><br> --><br>
+    </div>
+  </div>
+  {% for category in site.categories %}
+  <div class="row justify-content-md-center">
+    <div class="col-lg">
+      <h3>{{ category[0] }}</h3>
+      {% for tag in site.tags %}
+      {% assign actname = '' %}
+      {% if category[0] == 'Volume 1' %}
+        {% case tag[0] %}
+          {% when 'Act 0' %}
+            {% assign actname = 'Prologue' %}
+          {% when 'Act 1' %}
+            {% assign actname = 'Act 1: The Beginnings After the Rebirth' %}
+          {% when 'Act 2' %}
+            {% assign actname = 'Act 2: The Fight After the Rebirth' %}
+          {% when 'Act 3' %}
+            {% assign actname = 'Act 3: The Departure After the Rebirth' %}
+        {% endcase %}
+      {% elsif category[0] == 'Volume 2' %}
+        {% case tag[0] %}
+          {% when 'Act 0' %}
+            {% assign actname = 'Prologue' %}
+          {% when 'Act 1' %}
+            {% assign actname = 'Act 1: Knights of the Kingdom of Begonia' %}
+          {% comment %}
+          {% when 'Act 2' %}
+            {% assign actname = 'Act 2: Best Friend' %}
+          {% when 'Act 3' %}
+            {% assign actname = 'Act 3: Secret Mission' %}
+          {% endcomment %}
+        {% endcase %}
+      {% endif %}
+      <dl class="row">
+      <dt class="col-12"><h5>{{ actname }}</h5></dt>
+      <!-- <ul> -->
+        {% assign sorted_posts = tag[1] | sort: 'date' %}
+        {% for post in sorted_posts %}
+        {% if post.category == category[0] %}
+          <dt class="col-9">
+            <a href="{{ post.url }}"><b>{{ post.title | replace: 'Chapter ', 'Ch.'}}</b> {{ post.subtitle }}</a>
+          </dt>
+          <dd class="col-3 text-center">
+            {% if post.manga %}
+              <a href="https://mangadex.org/title/41744/shi-ni-modori-subete-wo-sukuu-tame-ni-saikyou-he-to-itaru" target="_blank">{{ post.manga }}</a>
+            {% else %}
+              -
+            {% endif %}
+          </dd>
+        {% endif %}
+        {% endfor %}
+      <!-- </ul> -->
+      </dl>
+      {% endfor %}
+    </div>
+  </div>
+  <br>
+  {% endfor %}   
+  
+  <hr><br>
+  <div class="row justify-content-md-center">
+    <div class="col-lg">
+      <h2>Main Characters</h2>
+      <br>
+    </div>
+  </div>
+  
+  <div class="row justify-content-md-center">
+    <div class="col-sm-12 col-lg-3">
+      <img src="/img/names/eric.jpg" class="img-thumbnail" alt="Eric Aurin">
+      <br><br>
+    </div>
+    <div class="col-sm-12 col-lg-9">
+      <dl class="row">
+        <dt class="col-sm-3">Name</dt>
+        <dd class="col-sm-9">Eric Aulin</dd>
+
+        <dt class="col-sm-3">Japanese</dt>
+        <dd class="col-sm-9">
+          エリック・アウリン
+          <blockquote>Erikku Aurin</blockquote>
+        </dd>
+        <dt class="col-sm-3 text-truncate">Profile</dt>
+        <dd class="col-sm-9">Main character of the series. He was given a second chance in life when he was rebirth in the past with his memory of the original timeline in tact.</dd>
+      </dl>
+    </div>
+    <br>
+  </div>
+  <div class="row justify-content-md-center">
+    <div class="col-sm-12 col-lg-3">
+      <img src="/img/names/tina.jpg" class="img-thumbnail" alt="Tina Aurin">
+      <br><br>
+    </div>
+    <div class="col-sm-12 col-lg-9">
+      <dl class="row">
+        <dt class="col-sm-3">Name</dt>
+        <dd class="col-sm-9">Tina Aulin</dd>
+
+        <dt class="col-sm-3">Japanese</dt>
+        <dd class="col-sm-9">
+          ティナ・アウリン
+          <blockquote>Tina Aurin</blockquote>
+        </dd>
+        <dt class="col-sm-3 text-truncate">Profile</dt>
+        <dd class="col-sm-9">Childhood friend of Eric. Sacrificed herself for him when their village was attacked in the original timeline.</dd>
+      </dl>
+    </div>
+    <br>
+  </div>
+  <div class="row justify-content-md-center">
+    <div class="col-6"><h4><a href="/aulin">Book 1 Characters</a></h4></div>
+    <div class="col-6"><h4><a href="/begonia">Book 2 Characters</a></h4></div>
+  </div>
+</div>

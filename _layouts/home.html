@@ -27,6 +27,9 @@ layout: default
     
     <!-- <div class="row justify-content-md-center"> -->
       <!-- <div class="col-lg-8 col-md-10 mx-auto"> -->
+    <div class="alert alert-dark" role="alert">
+      Coming from the Manga? <a href="manga" class="alert-link">Here's a Chapter Guide!</a> <label for="darkSwitch">Click here to toggle Dark Mode</label>
+    </div>
     <div class="row justify-content-md-center">
       <div class="col-lg">
         <h1>Web Novel Translations</h1>
@@ -39,7 +42,7 @@ layout: default
         {% for category in site.categories %}
         <div class="row justify-content-md-center">
           <div class="col-sm-12 col-lg-3">
-            <img src="img/{{ category[0] | replace: ' ', '_'}}_Cover.jpg" class="img-fluid" alt="{{ category[0] }} Cover">
+            <img src="/img/{{ category[0] | replace: ' ', '_'}}_Cover.jpg" class="img-fluid" alt="{{ category[0] }} Cover">
             <br><br>
           </div>
           <div class="col-sm-12 col-lg-9">
@@ -77,6 +80,16 @@ layout: default
               {% for post in sorted_posts %}
               {% if post.category == category[0] %}
                 <li>
+
+                  {% if post.title == 'Chapter 31' %}
+                  <span class="badge badge-secondary">Soon</span>
+                  {% elsif post.title == 'Chapter 32' %}
+                  <span class="badge badge-secondary">Soon</span>
+                  {% elsif post.title == 'Chapter 33' %}
+                  <span class="badge badge-secondary">Soon</span>
+                  {% elsif post.title == 'Chapter 34' %}
+                  <span class="badge badge-secondary">Soon</span>
+                  {% endif %}
 
                   {% if post.category == 'Volume 2' %}
                   <span class="badge badge-secondary">New</span>
@@ -168,7 +181,7 @@ layout: default
       </div>
     </div>
     <br>
-    <div class="row justify-content-md-center">
+    <!-- <div class="row justify-content-md-center">
       <div class="col-md-4">
         <div class="alert alert-dark" role="alert">
           <div class="custom-control custom-switch">
@@ -177,5 +190,5 @@ layout: default
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>

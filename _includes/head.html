@@ -8,7 +8,19 @@
     {% else %}{{ site.title | escape }}{% endif %}
   </title>
 
-  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  <!-- <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}"> -->
+
+  <meta name="description" content="After Being Reborn, I Became the Strongest to Save Everyone">
+  <meta name="author" content="Shinimodori">
+  <meta property="og:title" content="{% if page.title %}{{ page.title | escape }} {{ page.subtitle | escape }} - {{ site.title | escape }}
+    {% else %}{{ site.title | escape }}{% endif %}" />
+  <meta property="og:site_name" content="Shinimodori Novel"/>
+  <meta property="og:url" content="https://shinimodori.github.io/"/>
+  <meta property="og:description" content="After Being Reborn, I Became the Strongest to Save Everyone"/>
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="{{site.baseurl}}/icon/apple-icon-180x180.png" />
+  <meta property="og:image:width" content="180" />
+  <meta property="og:image:height" content="180" />
 
   <link rel="apple-touch-icon" sizes="57x57" href="/icon/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="/icon/apple-icon-60x60.png">
@@ -82,6 +94,14 @@
 
     .badge {
       display: unset;
+    }
+
+    [data-theme="dark"] .alert-dark .alert-link {
+      color: #040505 !important;
+    }
+
+    .alert > label {
+      margin-bottom: 0;
     }
   </style>
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
