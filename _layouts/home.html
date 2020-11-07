@@ -64,9 +64,9 @@ layout: default
               {% case tag[0] %}
                 {% when 'Act 0' %}
                   {% assign actname = 'Prologue' %}
+                {% comment %}
                 {% when 'Act 1' %}
                   {% assign actname = 'Act 1: Knights of the Kingdom of Begonia' %}
-                {% comment %}
                 {% when 'Act 2' %}
                   {% assign actname = 'Act 2: Best Friend' %}
                 {% when 'Act 3' %}
@@ -81,9 +81,7 @@ layout: default
               {% if post.category == category[0] %}
                 <li>
 
-                  {% if post.title == 'Chapter 31' %}
-                  <span class="badge badge-secondary">Soon</span>
-                  {% elsif post.title == 'Chapter 32' %}
+                  {% if post.title == 'Chapter 32' %}
                   <span class="badge badge-secondary">Soon</span>
                   {% elsif post.title == 'Chapter 33' %}
                   <span class="badge badge-secondary">Soon</span>
